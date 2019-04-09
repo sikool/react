@@ -11,7 +11,7 @@ export default class MyList extends Component {
 
     // Makes the generic function specific
     // to this component by calling "bind(this)".
-    onReverseClick = reverse.bind(this)
+    onReverseClick = reverse.bind(this);
 
     render() {
         const {
